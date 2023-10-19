@@ -1,0 +1,42 @@
+.hook {
+    width: 400px;
+    margin-top: 25px;
+    padding: 25px;
+    background-color:rgb(137, 170, 197);
+    color: white;
+  }
+  .hook__text {
+    display: block;
+  }
+  .hook__input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  .hook__input:focus {
+    outline: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+  }
+
+  #button_container {
+    text-align: center;
+ }
+  .hook__button {
+    width: 25%;
+    padding: 10px;
+    margin: 15px 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ccc;
+    text-align: center;
+  }
+  .hook__error {
+    margin: 0;
+    font-size: 1.4rem;
+    color: red;
+  }
+  
